@@ -1,0 +1,15 @@
+package com.springboot.web;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringbootWebApplicationTests {
+
+    @Test
+    void contextLoads() {
+        int i = 0;
+        System.out.println(++i+i+++i+i);
+    }
+
+}
